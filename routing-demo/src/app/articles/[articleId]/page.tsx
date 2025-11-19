@@ -7,10 +7,10 @@ export default function NewsArticle({
   searchParams
 }: {
   params: { articleId: string };
-  searchParams: { lang?: "en" | "es" | "fr" };
+  searchParams: { lang?: "en" | "es" | "fr" }; 
 }) {
   const { articleId } = params;
-  const { lang = "en" } = searchParams;
+  const { lang = "en" } = searchParams; 
 
   return (
     <div>
